@@ -1,0 +1,52 @@
+
+.wp-block-create-block-accordion-block{
+	  
+	  details > summary {
+		outline:none;
+		list-style: none;
+		cursor: pointer;
+	  }
+	  details > summary::-webkit-details-marker {
+		display: none;
+	  }
+	  .wp-accordion{
+		background-color: #eee;
+		height: 100%;
+	  }
+	  .wp-accordion[open] {
+		height: auto;
+	  }
+
+	  .wp-accordion__content{
+		padding: 2rem;
+	  }
+	  .wp-accordion__title{
+		padding: 2rem;
+		position: relative;
+	  }
+	  .wp-accordion__title::before{
+		position: absolute;
+		content: "";
+		transition: all .4s;
+		width: 8px;
+		height: 8px;
+		border: 0px;
+		border-top: solid 2px #000;
+		border-right: solid 2px #000;
+		top: 46%;
+		right: 5%;
+		transform: translate(-50%, -50%) rotate(135deg);
+	  }
+
+	  details[open] .wp-accordion__title:before {
+		top: 56%;
+		transform: translate(-50%, -50%) rotate(-45deg);
+	  }
+
+
+	  .wp-accordion[open] > summary {
+		// border-bottom: 1px solid HSLA(272, 18%, 14%, 1.00);
+		background-color: rgb(219, 219, 219);
+	  }
+
+}

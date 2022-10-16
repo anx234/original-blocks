@@ -1,0 +1,19 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-create-block-accordion-block {
+	border: 1px solid #000;
+}
+
+.wpedit-accordion__title , .wpedit-accordion__content{
+padding: 2rem;
+}
+.wpedit-accordion__title{
+
+}
+.wpedit-accordion__content{
+border-top: 1px solid #000;
+}

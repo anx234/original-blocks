@@ -1,0 +1,49 @@
+/*!***********************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/blocks/slider-block/style.scss ***!
+  \***********************************************************************************************************************************************************************************************************************************************************/
+.wp-block-create-block-slider-block .swiper-pagination {
+  bottom: 0 !important;
+  position: relative !important;
+}
+.wp-block-create-block-slider-block .swiper-container-horizontal {
+  position: relative;
+}
+.wp-block-create-block-slider-block .swiper-wrapper {
+  width: 100%;
+}
+.wp-block-create-block-slider-block .swiper-slide {
+  background-color: #eee;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  text-align: center;
+}
+.wp-block-create-block-slider-block .swiper-pagination-bullets {
+  width: 100px;
+}
+.wp-block-create-block-slider-block .swiper-pagination-bullet {
+  width: 12px !important;
+  height: 12px !important;
+  margin: 0 0 0 10px !important;
+  background: #fff;
+}
+.wp-block-create-block-slider-block .swiper-pagination-bullet:first-child {
+  margin: 0 !important;
+}
+.wp-block-create-block-slider-block .swiper-slide__thumbnail img {
+  width: 100%;
+  height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
+}
+.wp-block-create-block-slider-block .swiper-slide__content {
+  padding: 1rem;
+}
+.wp-block-create-block-slider-block .swiper-slide__date {
+  text-align: right;
+  display: block;
+}
+
+/*# sourceMappingURL=style-index.css.map*/

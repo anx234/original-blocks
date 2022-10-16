@@ -1,0 +1,47 @@
+/*!**************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/blocks/accordion-block/style.scss ***!
+  \**************************************************************************************************************************************************************************************************************************************************************/
+.wp-block-create-block-accordion-block details > summary {
+  outline: none;
+  list-style: none;
+  cursor: pointer;
+}
+.wp-block-create-block-accordion-block details > summary::-webkit-details-marker {
+  display: none;
+}
+.wp-block-create-block-accordion-block .wp-accordion {
+  background-color: #eee;
+  height: 100%;
+}
+.wp-block-create-block-accordion-block .wp-accordion[open] {
+  height: auto;
+}
+.wp-block-create-block-accordion-block .wp-accordion__content {
+  padding: 2rem;
+}
+.wp-block-create-block-accordion-block .wp-accordion__title {
+  padding: 2rem;
+  position: relative;
+}
+.wp-block-create-block-accordion-block .wp-accordion__title::before {
+  position: absolute;
+  content: "";
+  transition: all 0.4s;
+  width: 8px;
+  height: 8px;
+  border: 0px;
+  border-top: solid 2px #000;
+  border-right: solid 2px #000;
+  top: 46%;
+  right: 5%;
+  transform: translate(-50%, -50%) rotate(135deg);
+}
+.wp-block-create-block-accordion-block details[open] .wp-accordion__title:before {
+  top: 56%;
+  transform: translate(-50%, -50%) rotate(-45deg);
+}
+.wp-block-create-block-accordion-block .wp-accordion[open] > summary {
+  background-color: rgb(219, 219, 219);
+}
+
+/*# sourceMappingURL=style-index.css.map*/
