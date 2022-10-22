@@ -1,3 +1,6 @@
+- アコーディオン  ブロック
+- スライダーブロック
+
 === Original Blocks ===
 Contributors:      The WordPress Contributors
 Tags:              block
